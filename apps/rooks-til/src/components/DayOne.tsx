@@ -1,4 +1,4 @@
-import { useArrayState } from '../hooks/state/useArrayState'
+import { useArrayState } from '@til/lib'
 
 const DayOne = () => {
   const [array, controls] = useArrayState(['1', '2'].map(n => Number(n)))
