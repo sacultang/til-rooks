@@ -829,7 +829,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.2.6"],\
             ["@types/react-dom", "npm:18.2.4"],\
             ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:87d0450ff8ed05265923571946de46dc55fffd7241b3725ff6aa7201e6cc886638d96c5fb3e83a2f4825bf7f293180b8ddc165f116a68dc19ea276a966478e5d#npm:18.2.0"],\
+            ["react-dom", "virtual:bb22c2873f07de59e61facbb36b75e073ff0996eed848bd694f3b915e2c5c69f3823c98e52c52f4a0984b0604430993fd449b865b037762e55d4e508c04eee7c#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
           ],\
           "linkType": "SOFT"\
@@ -840,6 +840,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./apps/rooks-til/",\
           "packageDependencies": [\
             ["@til/rooks", "workspace:apps/rooks-til"],\
+            ["@til/lib", "workspace:packages/lib"],\
             ["@types/react", "npm:18.2.6"],\
             ["@types/react-dom", "npm:18.2.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:87d0450ff8ed05265923571946de46dc55fffd7241b3725ff6aa7201e6cc886638d96c5fb3e83a2f4825bf7f293180b8ddc165f116a68dc19ea276a966478e5d#npm:5.59.5"],\
@@ -849,7 +850,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:87d0450ff8ed05265923571946de46dc55fffd7241b3725ff6aa7201e6cc886638d96c5fb3e83a2f4825bf7f293180b8ddc165f116a68dc19ea276a966478e5d#npm:4.6.0"],\
             ["eslint-plugin-react-refresh", "virtual:87d0450ff8ed05265923571946de46dc55fffd7241b3725ff6aa7201e6cc886638d96c5fb3e83a2f4825bf7f293180b8ddc165f116a68dc19ea276a966478e5d#npm:0.3.5"],\
             ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:87d0450ff8ed05265923571946de46dc55fffd7241b3725ff6aa7201e6cc886638d96c5fb3e83a2f4825bf7f293180b8ddc165f116a68dc19ea276a966478e5d#npm:18.2.0"],\
+            ["react-dom", "virtual:bb22c2873f07de59e61facbb36b75e073ff0996eed848bd694f3b915e2c5c69f3823c98e52c52f4a0984b0604430993fd449b865b037762e55d4e508c04eee7c#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"],\
             ["vite", "virtual:87d0450ff8ed05265923571946de46dc55fffd7241b3725ff6aa7201e6cc886638d96c5fb3e83a2f4825bf7f293180b8ddc165f116a68dc19ea276a966478e5d#npm:4.3.5"]\
           ],\
@@ -4260,10 +4261,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:87d0450ff8ed05265923571946de46dc55fffd7241b3725ff6aa7201e6cc886638d96c5fb3e83a2f4825bf7f293180b8ddc165f116a68dc19ea276a966478e5d#npm:18.2.0", {\
-          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-33d1025ecb/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
+        ["virtual:bb22c2873f07de59e61facbb36b75e073ff0996eed848bd694f3b915e2c5c69f3823c98e52c52f4a0984b0604430993fd449b865b037762e55d4e508c04eee7c#npm:18.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-4a75878350/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
           "packageDependencies": [\
-            ["react-dom", "virtual:87d0450ff8ed05265923571946de46dc55fffd7241b3725ff6aa7201e6cc886638d96c5fb3e83a2f4825bf7f293180b8ddc165f116a68dc19ea276a966478e5d#npm:18.2.0"],\
+            ["react-dom", "virtual:bb22c2873f07de59e61facbb36b75e073ff0996eed848bd694f3b915e2c5c69f3823c98e52c52f4a0984b0604430993fd449b865b037762e55d4e508c04eee7c#npm:18.2.0"],\
             ["@types/react", "npm:18.2.6"],\
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\

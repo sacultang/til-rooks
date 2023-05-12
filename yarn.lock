@@ -609,7 +609,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@til/lib@workspace:packages/lib":
+"@til/lib@workspace:^, @til/lib@workspace:packages/lib":
   version: 0.0.0-use.local
   resolution: "@til/lib@workspace:packages/lib"
   dependencies:
@@ -626,6 +626,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@til/rooks@workspace:apps/rooks-til"
   dependencies:
+    "@til/lib": "workspace:^"
     "@types/react": ^18.0.28
     "@types/react-dom": ^18.0.11
     "@typescript-eslint/eslint-plugin": ^5.57.1
