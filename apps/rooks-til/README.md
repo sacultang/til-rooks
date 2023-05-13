@@ -40,6 +40,22 @@ type FooParam = Parameters<typeof foo> // [string, number, boolean] 이 된다
 ![linterror](./src/assets/useInterval/01.png)
 
 ```ts
+if (when) {
+  // ❌
+  function intervalCallback() {
+    savedRefCallback.current?.()
+  }
+}
+
+if (when) {
+  // ✅
+  const intervalCallback = () => {
+    savedRefCallback.current?.()
+  }
+}
+```
+
+```ts
 // Good ✅
 function foo() {}
 
