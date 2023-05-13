@@ -13,7 +13,12 @@ const DayTwo = () => {
     when
   )
 
-  return <div>{value}</div>
+  return (
+    <div>
+      <p>{value}</p>
+      <button onClick={() => setWhen(prev => !prev)}>Start Count</button>
+    </div>
+  )
 }
 
 export default DayTwo

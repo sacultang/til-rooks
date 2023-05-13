@@ -1,5 +1,5 @@
 import { useRef, useEffect } from 'react'
-import { noop } from '@/utils/noop'
+import { noop } from '../utils/noop'
 /**
  * 조건이 true일때 setInterval을 호출하는 hooks
  * @see {@link{https://github.com/imbhargav5/rooks/blob/main/packages/rooks/src/hooks/useIntervalWhen.ts}}
