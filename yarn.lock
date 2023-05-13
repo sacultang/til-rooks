@@ -616,11 +616,9 @@ __metadata:
     "@types/node": ^20.1.3
     "@types/react": ^18.2.6
     "@types/react-dom": ^18.2.4
-    "@vitejs/plugin-react": ^4.0.0
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^5.0.4
-    vite: ^4.3.5
   languageName: unknown
   linkType: soft
 
@@ -4138,7 +4136,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^4.3.2, vite@npm:^4.3.5":
+"vite@npm:^4.3.2":
   version: 4.3.5
   resolution: "vite@npm:4.3.5"
   dependencies:
