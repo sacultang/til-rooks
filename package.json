@@ -5,7 +5,8 @@
   "scripts": {
     "postinstall": "husky install",
     "format": "prettier --cache --write .",
-    "lint": "eslint --cache ."
+    "lint": "eslint --cache .",
+    "dev:rooks": "yarn workspace @til/rooks run dev"
   },
   "workspaces": [
     "apps/*",

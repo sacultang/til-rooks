@@ -1,1 +1,1 @@
-export { useArrayState } from './hooks/state/useArrayState'
+export { useArrayState } from './hooks/useArrayState'
