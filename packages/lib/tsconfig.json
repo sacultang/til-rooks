@@ -1,18 +1,29 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "../../tsconfig.base.json",
+  "extends": "../tsconfig/react-library.json",
   "compilerOptions": {
     "paths": {
       "@/*": ["*"]
     },
     "rootDir": "src",
-    "baseUrl": "./src",
-    "target": "esnext",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "strict": false,
     "module": "esnext",
-    "jsx": "react-jsx",
-    "noEmit": false,
-    "incremental": true
+    "jsx": "react",
+    "target": "esnext",
+    "baseUrl": "src",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "outDir": "build"
   },
-  "exclude": ["**/node_modules", "**/.*/", "dist", "build"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "scripts",
+    "docs",
+    "versioned_docs",
+    "versioned_sidebars",
+    "src/pages",
+    "src/css",
+    "src/theme"
+  ],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
 }
