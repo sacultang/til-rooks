@@ -40,3 +40,12 @@ function useCountdown(endTime: Date, options: CountdownOptions = {}): number {
   return count
 }
 ```
+
+```ts
+// 현재 시각으로부터 10초뒤!
+const endTime = new Date(Date.now() + 10000)
+```
+
+![console](../src/assets/useCountDown/01.png)
+
+`Date.now()`는 현재 시각을 밀리초 단위로 나타낸다
