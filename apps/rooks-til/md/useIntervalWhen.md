@@ -49,7 +49,7 @@ function useIntervalWhen(callback: () => void, intervalDurationMs = 0, when = tr
 
 > 이 규칙을 적용하면, 함수나 변수를 중첩된 블록 내에서 선언하는 것을 방지하여 코드의 가독성과 유지보수성을 높일 수 있습니다. 또한, 이 규칙은 호이스팅(hoisting) 문제를 방지할 수 있습니다. 호이스팅은 변수나 함수 선언이 스코프의 맨 위로 올라가는 것을 의미합니다. 때문에 중첩된 블록 내에서 함수나 변수를 선언하면, 예상치 못한 동작을 일으킬 수 있습니다.
 
-![linterror](./src/assets/useInterval/01.png)
+![linterror](../src/assets/useInterval/01.png)
 
 ```ts
 if (when) {
