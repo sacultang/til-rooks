@@ -6,3 +6,11 @@
 👉 [rooks/README](./apps/rooks-til/README.md)
 
 ## mono repo 구성
+
+```
+apps
+  ├─ rooks-til
+  └─ trans
+packages
+  └─ lib
+```
