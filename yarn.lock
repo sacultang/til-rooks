@@ -759,6 +759,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@til/trans@workspace:apps/trans"
   dependencies:
+    "@til/lib": "workspace:^"
     "@types/node": 20.1.4
     "@types/react": 18.2.6
     "@types/react-dom": 18.2.4
