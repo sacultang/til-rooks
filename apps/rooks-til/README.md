@@ -5,3 +5,5 @@
 #### [2. useIntervalWhen](./md/useIntervalWhen.md)
 
 #### [3. useCountDown](./md/useCountDown.md)
+
+#### [4. useCounter](./md/useCounter.md)
