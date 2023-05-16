@@ -13,6 +13,7 @@ const Day5 = () => {
         <input type="text" value={setInputKey} onChange={e => setSetInputKey(e.target.value)} placeholder="key" />
         <input value={setInputValue} onChange={e => setSetInputValue(e.target.value)} placeholder="value" />
         <button onClick={() => set(setInputKey, setInputValue)}>set</button>
+        <button onClick={() => setMultiple({ a: 2, b: 4 })}>multiple</button>
       </div>
       <div className="input">
         <input value={removeInputKey} onChange={e => setRemoveInputKey(e.target.value)} placeholder="key" />
