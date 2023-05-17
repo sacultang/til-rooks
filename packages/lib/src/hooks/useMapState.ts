@@ -7,7 +7,7 @@ import { useCallback, useState } from 'react'
  * @param initialValue Initial value of the map
  * @see https://rooks.vercel.app/docs/useMapState
  */
-function useMapState<T extends { [key: string]: unknown }, K extends keyof T | string>(
+function useMapState<T extends { [key: string]: unknown }, K extends keyof T | string | number>(
   initialValue: T
 ): [
   T,

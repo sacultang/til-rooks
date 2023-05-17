@@ -1,7 +1,7 @@
 import { useMapState } from '@til/lib'
 import { useState } from 'react'
 const Day5 = () => {
-  const [map, { set, setMultiple, has, remove, removeMultiple, removeAll }] = useMapState({ a: 1, b: 2 })
+  const [map, { set, setMultiple, has, remove, removeMultiple, removeAll }] = useMapState({ 1: 1, 2: 2 })
   const [setInputKey, setSetInputKey] = useState('')
   const [setInputValue, setSetInputValue] = useState('')
   const [removeInputKey, setRemoveInputKey] = useState('')
@@ -13,7 +13,7 @@ const Day5 = () => {
         <input type="text" value={setInputKey} onChange={e => setSetInputKey(e.target.value)} placeholder="key" />
         <input value={setInputValue} onChange={e => setSetInputValue(e.target.value)} placeholder="value" />
         <button onClick={() => set(setInputKey, setInputValue)}>set</button>
-        <button onClick={() => setMultiple({ a: 2, b: 4 })}>multiple</button>
+        <button onClick={() => setMultiple({ 1: 2, 2: 4 })}>multiple</button>
       </div>
       <div className="input">
         <input value={removeInputKey} onChange={e => setRemoveInputKey(e.target.value)} placeholder="key" />
