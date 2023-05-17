@@ -3,8 +3,12 @@ import { useEffect, useState } from 'react'
 const Day6 = () => {
   const [total, setTotal] = useState(0)
   const [selection, { matchSelection, toggleSelection, updateSelections }] = useMultiSelectableList(toppings, [0, 1])
+
   useEffect(() => {
-    setTotal(selection[1].reduce((acc: number, cur: ToppingsType) => acc + cur.price, 0))
+    if (Array.isArray(selection[1])) {
+      const totalPrice = selection[1].reduce((acc: number, cur: ToppingsType): number => acc + cur.price, 0)
+      setTotal(totalPrice)
+    }
   }, [selection])
   return (
     <div>
