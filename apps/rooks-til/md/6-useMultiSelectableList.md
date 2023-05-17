@@ -3,7 +3,7 @@
 [👉 useMultiSelectableList](../../../packages/lib/src/hooks/useMultiSelectableList.ts)  
 [👉 Day6](../src/components/Day6.tsx)
 
-![useMultiSelectableList](https://rooks.vercel.app/docs/useMultiSelectableList)  
+<a href="https://rooks.vercel.app/docs/useMultiSelectableList" target="_blank" rel="noopener" >https://rooks.vercel.app/docs/useMultiSelectableList</a>  
 여러 select값을 쉽게 구해주는? hooks
 
 ```ts
