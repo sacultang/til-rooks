@@ -6,3 +6,4 @@
 4. [useCounter](./md/4-useCounter.md)
 5. [useMapState](./md/5-useMapState.md)
 6. [useMultiSelectableList](./md/6-useMultiSelectableList.md)
+7. [useOutsideClick](./md/7-useOutsideClick.md)

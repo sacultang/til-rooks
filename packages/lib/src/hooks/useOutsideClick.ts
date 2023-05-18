@@ -29,7 +29,7 @@ function useOutsideClick(
 
   useEffect(() => {
     savedHandler.current = handler
-  })
+  }, [handler])
 
   useEffect(() => {
     if (when) {
