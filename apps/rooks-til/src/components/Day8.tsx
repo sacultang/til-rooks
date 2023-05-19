@@ -1,21 +1,23 @@
 import { useSelect } from '@til/lib'
 
 const Day8 = () => {
-  const { index, setIndex, item } = useSelect(list, 0)
+  const { index, setIndex, item, setItem } = useSelect(list, 0)
+
   return (
     <div>
       <h1>useSelect</h1>
       <hr />
-      {list.map((item, listIndex) => (
+      {list.map((listItem, listIndex) => (
         <button
-          key={item.heading}
-          onClick={() => setIndex(listIndex)}
+          key={listItem.heading}
+          onClick={() => setItem(listItem)}
           style={{ backgroundColor: listIndex === index ? 'antiquewhite' : '#fff' }}
         >
-          {item.heading}
+          {listItem.heading}
         </button>
       ))}
-      <p>{item.content}</p>
+
+      <p>{item && item.content}</p>
     </div>
   )
 }
