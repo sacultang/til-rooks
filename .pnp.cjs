@@ -24,10 +24,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:apps/rooks-til"\
       },\
       {\
-        "name": "test",\
-        "reference": "workspace:apps/test"\
-      },\
-      {\
         "name": "@til/trans",\
         "reference": "workspace:apps/trans"\
       },\
@@ -47,7 +43,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ["@til/rooks", ["workspace:apps/rooks-til"]],\
       ["@til/trans", ["workspace:apps/trans"]],\
       ["nextjs", ["workspace:apps/nextjs"]],\
-      ["test", ["workspace:apps/test"]],\
       ["til", ["workspace:."]],\
       ["tsconfig", ["workspace:packages/tsconfig"]]\
     ],\
@@ -6226,27 +6221,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["yallist", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
-        }]\
-      ]],\
-      ["test", [\
-        ["workspace:apps/test", {\
-          "packageLocation": "./apps/test/",\
-          "packageDependencies": [\
-            ["test", "workspace:apps/test"],\
-            ["@types/node", "npm:20.2.1"],\
-            ["@types/react", "npm:18.2.6"],\
-            ["@types/react-dom", "npm:18.2.4"],\
-            ["autoprefixer", "virtual:c6e8f6219c502b701a567f35b2c52fce6c7e6a21db15969391dd070aea0b0b8eb1279043967ce235d019f42233de557665d36d648427428d0d0121848facee38#npm:10.4.14"],\
-            ["eslint", "npm:8.40.0"],\
-            ["eslint-config-next", "virtual:c6e8f6219c502b701a567f35b2c52fce6c7e6a21db15969391dd070aea0b0b8eb1279043967ce235d019f42233de557665d36d648427428d0d0121848facee38#npm:13.4.3"],\
-            ["next", "virtual:c6e8f6219c502b701a567f35b2c52fce6c7e6a21db15969391dd070aea0b0b8eb1279043967ce235d019f42233de557665d36d648427428d0d0121848facee38#npm:13.4.3"],\
-            ["postcss", "npm:8.4.23"],\
-            ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:c6e8f6219c502b701a567f35b2c52fce6c7e6a21db15969391dd070aea0b0b8eb1279043967ce235d019f42233de557665d36d648427428d0d0121848facee38#npm:18.2.0"],\
-            ["tailwindcss", "npm:3.3.2"],\
-            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
-          ],\
-          "linkType": "SOFT"\
         }]\
       ]],\
       ["text-table", [\
