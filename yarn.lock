@@ -828,6 +828,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@til/nextjs@workspace:apps/nextjs":
+  version: 0.0.0-use.local
+  resolution: "@til/nextjs@workspace:apps/nextjs"
+  dependencies:
+    "@types/node": 20.2.1
+    "@types/react": 18.2.6
+    "@types/react-dom": 18.2.4
+    autoprefixer: 10.4.14
+    eslint: 8.40.0
+    eslint-config-next: 13.4.3
+    next: 13.4.3
+    postcss: 8.4.23
+    react: 18.2.0
+    react-dom: 18.2.0
+    tailwindcss: 3.3.2
+    typescript: 5.0.4
+  languageName: unknown
+  linkType: soft
+
 "@til/rooks@workspace:apps/rooks-til":
   version: 0.0.0-use.local
   resolution: "@til/rooks@workspace:apps/rooks-til"
@@ -3868,25 +3887,6 @@ __metadata:
   checksum: 65f13be0600b8b64de7ee51b5cf06b062f2f9f484bddf79002107750d6e92ab01542cb7de62f03a5be6eafbb060ee68fa688714ef02956c7e603e67bdd28cd84
   languageName: node
   linkType: hard
-
-"nextjs@workspace:apps/nextjs":
-  version: 0.0.0-use.local
-  resolution: "nextjs@workspace:apps/nextjs"
-  dependencies:
-    "@types/node": 20.2.1
-    "@types/react": 18.2.6
-    "@types/react-dom": 18.2.4
-    autoprefixer: 10.4.14
-    eslint: 8.40.0
-    eslint-config-next: 13.4.3
-    next: 13.4.3
-    postcss: 8.4.23
-    react: 18.2.0
-    react-dom: 18.2.0
-    tailwindcss: 3.3.2
-    typescript: 5.0.4
-  languageName: unknown
-  linkType: soft
 
 "node-gyp@npm:latest":
   version: 9.3.1

@@ -7,7 +7,7 @@
     "format": "prettier --cache --write .",
     "lint": "eslint --cache .",
     "dev:rooks": "yarn workspace @til/rooks run dev",
-    "dev:trans": "yarn workspace @til/trans run dev"
+    "dev:next": "yarn workspace @til/nextjs run dev"
   },
   "workspaces": [
     "apps/*",
