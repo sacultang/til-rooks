@@ -36,18 +36,27 @@ nav {
       color: var(--lightest-slate);
       font-size: var(--tsm1);
       counter-reset: nav-list;
+      font-family: var(--fira-code);
       &-list {
         display: flex;
         gap: 3rem;
         list-style: none;
         &-item {
           a {
+            outline: 2px dashed transparent;
+            transition: 0.3s ease-in-out;
             color: inherit;
             text-decoration: none;
             padding: 10px;
             &::before {
               counter-increment: nav-list;
               content: '0' counter(nav-list) '. ';
+              color: var(--theme-color);
+            }
+            &:focus {
+              outline-color: var(--theme-color);
+            }
+            &:hover {
               color: var(--theme-color);
             }
           }
