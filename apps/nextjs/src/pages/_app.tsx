@@ -1,9 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import type { AppProps } from 'next/app'
 import '@/scss/index.scss'
-import { Raleway, Fira_Code } from 'next/font/google'
-const raleway = Raleway({ subsets: ['latin'] })
-const firecode = Fira_Code({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'] })
+import { raleway, firecode, notosans } from './_font'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -12,6 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
         :root {
           --raleway: ${raleway.style.fontFamily};
           --fira-code: ${firecode.style.fontFamily};
+          --notosans: ${notosans.style.fontFamily};
         }
       `}</style>
       <Component {...pageProps} />

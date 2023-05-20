@@ -1,0 +1,30 @@
+.hero {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  justify-content: center;
+  min-height: 60vh;
+  &-title {
+    color: var(--theme-color);
+    font-size: var(--tsm2);
+    font-family: var(--fira-code);
+  }
+  &-title-large {
+    font-size: var(--tgiant);
+    font-family: var(--raleway);
+    color: var(--light-slate);
+  }
+  &-title-sub {
+    color: var(--lightest-slate);
+  }
+  &-text {
+    color: var(--slate);
+    margin-right: 30%;
+    font-size: var(--tsm1);
+    line-height: 1.6rem;
+    font-weight: 300;
+    font-family: var(--notosans);
+  }
+}
