@@ -9,15 +9,17 @@
   &-title {
     color: var(--theme-color);
     font-size: var(--tsm2);
-    font-family: var(--fira-code);
+    font-family: var(--inter);
   }
   &-title-large {
     font-size: var(--tgiant);
-    font-family: var(--raleway);
+    font-family: var(--inter);
     color: var(--light-slate);
   }
   &-title-sub {
     color: var(--lightest-slate);
+    font-weight: 300;
+    line-height: 3.2rem;
   }
   &-text {
     color: var(--slate);
@@ -26,5 +28,13 @@
     line-height: 1.6rem;
     font-weight: 300;
     font-family: var(--notosans);
+  }
+  &-button {
+    margin-top: 1rem;
+    .btn {
+      padding: 0.5rem 2rem;
+      font-size: var(--tsm1);
+      font-family: var(--fira-code);
+    }
   }
 }
