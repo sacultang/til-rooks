@@ -1,5 +1,6 @@
 import React from 'react'
 import SocialIcons from '@/components/SocialIcons'
+import About from '@/sections/About'
 import Hero from '@/sections/Hero'
 import Navbar from '@/sections/Navbar'
 const Index = () => {
@@ -8,6 +9,7 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
+        <About />
       </main>
       <SocialIcons />
     </div>
