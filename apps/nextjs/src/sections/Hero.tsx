@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Button from '@/components/Button'
 const Hero = () => {
   return (
     <div className="hero">
@@ -11,6 +11,7 @@ const Hero = () => {
         <br></br> - 백엔드와 협업 경험이 있어 서버와 클라이언트 간의 통신 방식을 이해하고 있습니다.<br></br>-
         디자이너로서의 경험과 다수의 UI 구현 경험으로 사용자 인터렉션에 대한 이해도가 있습니다.
       </p>
+      <Button text="Go Project" link="/project" />
     </div>
   )
 }

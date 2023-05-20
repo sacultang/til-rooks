@@ -32,4 +32,8 @@ const Navbar = () => {
 
 export default Navbar
 const crateLink = (name: string, link: string) => ({ name, link })
-const sectionLinks = [crateLink('About', '/about'), crateLink('Experience', '/experience'), crateLink('Work', '/work')]
+const sectionLinks = [
+  crateLink('About', '/about'),
+  crateLink('Project', '/project'),
+  crateLink('Experience', '/experience'),
+]
