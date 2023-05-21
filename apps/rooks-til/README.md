@@ -8,3 +8,4 @@
 6. [useMultiSelectableList](./md/6-useMultiSelectableList.md)
 7. [useOutsideClick](./md/7-useOutsideClick.md)
 8. [useSelect](./md/8-useSelect.md)
+9. [useResizeObserverRef](./md/9-useResizeObserverRef.md)
