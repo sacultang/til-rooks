@@ -5,13 +5,14 @@ import './App.css'
 // import Day6 from './components/Day6'
 // import Day7 from './components/Day7'
 // import Day8 from './components/Day8'
-import Day9 from './components/Day9'
+// import Day9 from './components/Day9'
+import Day10 from './components/Day10'
 // import DayOne from './components/DayOne'
 // import DayTwo from './components/DayTwo'
 function App() {
   return (
     <main>
-      <Day9 />
+      <Day10 />
     </main>
   )
 }

@@ -1,7 +1,7 @@
 import { useCallback, useState, useRef, useEffect } from 'react'
 import { noop } from '../utils/noop'
+import { HTMLElementOrNull } from '../utils/utils'
 
-type HTMLElementOrNull = HTMLElement | null
 type CallbackRef<T extends HTMLElement | null = HTMLElementOrNull> = (node: T) => void
 
 const config: ResizeObserverOptions = {
