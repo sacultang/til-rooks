@@ -56,6 +56,7 @@ function useLocalstorageState<S>(key: string, initialState?: S | (() => S)): Use
     }
   }, [key, value])
 
+  // 다른 문서에서 발생한 로컬 스토리지 이벤트 수신
   const listenToCrossDocumnetStorageEvents = useCallback(
     (event: StorageEvent) => {
       if (event.storageArea === localStorage && event.key === key) {
@@ -85,6 +86,7 @@ function useLocalstorageState<S>(key: string, initialState?: S | (() => S)): Use
     }
   }, [listenToCrossDocumnetStorageEvents])
 
+  // 동일 문서 내에서 발생한 커스텀 이벤트 수신
   const listenToCustomEventWithinDocument = useCallback(
     (event: BroadcastCustomEvent<S>) => {
       try {
@@ -112,6 +114,7 @@ function useLocalstorageState<S>(key: string, initialState?: S | (() => S)): Use
     }
   }, [customEventTypeName, listenToCustomEventWithinDocument])
 
+  // 상태 값을 다른 컴포넌트에 브로드캐스트
   const broadcastValueWithinDocument = useCallback(
     (newValue: S) => {
       if (typeof document !== 'undefined') {
@@ -124,6 +127,7 @@ function useLocalstorageState<S>(key: string, initialState?: S | (() => S)): Use
     [customEventTypeName]
   )
 
+  // 최신 상태 값을 참조할 수 있는 mutable ref 객체 생성
   const currentValue = useFreshRef(value, true)
 
   const set = useCallback(
