@@ -2,7 +2,7 @@
 import type { AppProps } from 'next/app'
 import '@/scss/index.scss'
 import { raleway, firecode, notosans, inter } from './_font'
-
+import '../styles/globals.css'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>

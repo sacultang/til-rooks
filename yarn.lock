@@ -836,6 +836,8 @@ __metadata:
     "@types/react": 18.2.6
     "@types/react-dom": 18.2.4
     autoprefixer: 10.4.14
+    class-variance-authority: ^0.6.1
+    clsx: ^1.2.1
     eslint: 8.40.0
     eslint-config-next: 13.4.3
     framer-motion: ^10.12.12
@@ -845,6 +847,7 @@ __metadata:
     react-dom: 18.2.0
     react-icons: ^4.8.0
     sass: ^1.62.1
+    tailwind-merge: ^1.13.2
     tailwindcss: 3.3.2
     typescript: 5.0.4
   languageName: unknown
@@ -1601,6 +1604,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"class-variance-authority@npm:^0.6.1":
+  version: 0.6.1
+  resolution: "class-variance-authority@npm:0.6.1"
+  dependencies:
+    clsx: 1.2.1
+  checksum: 9be6b27998489c7af4535399ff00289c3347756209bb5405ca115e51bef7159f057f02532a53132299a3e26925552894ff1018bd8cc10807130b063039e82d8d
+  languageName: node
+  linkType: hard
+
 "clean-stack@npm:^2.0.0":
   version: 2.2.0
   resolution: "clean-stack@npm:2.2.0"
@@ -1612,6 +1624,13 @@ __metadata:
   version: 0.0.1
   resolution: "client-only@npm:0.0.1"
   checksum: 0c16bf660dadb90610553c1d8946a7fdfb81d624adea073b8440b7d795d5b5b08beb3c950c6a2cf16279365a3265158a236876d92bce16423c485c322d7dfaf8
+  languageName: node
+  linkType: hard
+
+"clsx@npm:1.2.1, clsx@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "clsx@npm:1.2.1"
+  checksum: 30befca8019b2eb7dbad38cff6266cf543091dae2825c856a62a8ccf2c3ab9c2907c4d12b288b73101196767f66812365400a227581484a05f968b0307cfaf12
   languageName: node
   linkType: hard
 
@@ -4943,6 +4962,13 @@ __metadata:
     "@pkgr/utils": ^2.3.1
     tslib: ^2.5.0
   checksum: 8a9560e5d8f3d94dc3cf5f7b9c83490ffa30d320093560a37b88f59483040771fd1750e76b9939abfbb1b5a23fd6dfbae77f6b338abffe7cae7329cd9b9bb86b
+  languageName: node
+  linkType: hard
+
+"tailwind-merge@npm:^1.13.2":
+  version: 1.13.2
+  resolution: "tailwind-merge@npm:1.13.2"
+  checksum: 8f9de3bd1e6271f5980f863ab85e0103f062bf84d814d3188bf6870af7eb43725ea40493ef0693dedd652b668cbdfcd6544235b16b70d438ed20bca6118a9066
   languageName: node
   linkType: hard
 
